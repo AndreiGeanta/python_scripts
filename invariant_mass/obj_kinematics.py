@@ -22,3 +22,9 @@ class Objects:
                     print("You found the {} {}.\n".format(particle.name, particle.particle_type))
         else:
             print("Particle not on-shell! \nThe particle does not obey the equation of motion. \nIt could be a virtual particle or you might have broken the laws of physics!\n")
+
+def main():
+    print("This is the module where the object kinematics is defined... ")
+
+if __name__ == "__main__":
+    main()
