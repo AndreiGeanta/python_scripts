@@ -8,8 +8,8 @@ class Particle:
 particle1 = Particle("Higgs", 125.7, 0.4, "boson")
 particle2 = Particle("Z", 91.1876, 0.0021, "boson")
 particle3 = Particle("W", 80.379, 0.012, "boson")
-particle4 = Particle("pi plus", 0.13957, 0.0, "meson")
-particle5 = Particle("pi 0", 0.13497, 0.0, "meson")
+particle4 = Particle("charged pi", 0.13957, 0.0, "meson")
+particle5 = Particle("neutral pi 0", 0.13497, 0.0, "meson")
 
 particles = [particle1, particle2, particle3, particle4, particle5]
 

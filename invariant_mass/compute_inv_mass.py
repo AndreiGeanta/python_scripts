@@ -35,12 +35,12 @@ object12 = Objects(0.13497/2, (-0.13497/2)*math.sin(20), 0, -(0.13497/2)*math.co
 
 def main():
 #compute the invariant mass for pairs of objects
-    mass = Objects.compute_inv_mass(object1, object2)
-    mass = Objects.compute_inv_mass(object3, object4)
-    mass = Objects.compute_inv_mass(object5, object6)
-    mass = Objects.compute_inv_mass(object7, object8)
-    mass = Objects.compute_inv_mass(object9, object10)
-    mass = Objects.compute_inv_mass(object11, object12)
+    Objects.compute_inv_mass(object1, object2)
+    Objects.compute_inv_mass(object3, object4)
+    Objects.compute_inv_mass(object5, object6)
+    Objects.compute_inv_mass(object7, object8)
+    Objects.compute_inv_mass(object9, object10)
+    Objects.compute_inv_mass(object11, object12)
 
 if __name__ == '__main__':
     main()
