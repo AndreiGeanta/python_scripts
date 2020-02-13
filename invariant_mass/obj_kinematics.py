@@ -21,7 +21,7 @@ class Objects:
                 if (math.sqrt(mass) >= (particle.mass_mean - particle.mass_stat_err)) and (math.sqrt(mass) <= (particle.mass_mean + particle.mass_stat_err)):
                     print("You found the {} {}.\n".format(particle.name, particle.particle_type))
         else:
-            print("Particle not on-shell! \nThe particle does not obey the equation of motion. \nIt could be a virtual particle or you might have broken the laws of physics!\n")
+            print("Particle not on-shell! \nThe particle does not obey the equations of motion. \nIt could be a virtual particle or you might have broken the laws of physics!\n")
 
 def main():
     print("This is the module where the object kinematics is defined... ")
